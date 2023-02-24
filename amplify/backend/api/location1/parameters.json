@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "location1",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authlocation100c2256e",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
