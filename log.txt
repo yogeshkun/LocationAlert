@@ -1,0 +1,147 @@
+2023-02-24T19:48:44.736Z [INFO]: # Cloning repository: git@github.com:yogeshkun/LocationAlert.git
+2023-02-24T19:48:46.058Z [INFO]: 
+2023-02-24T19:48:46.060Z [INFO]: Cloning into 'LocationAlert'...
+2023-02-24T19:48:46.061Z [INFO]: # Checking for Git submodules at: /codebuild/output/src004876055/src/LocationAlert/.gitmodules
+2023-02-24T19:48:46.071Z [INFO]: # Retrieving environment cache...
+2023-02-24T19:48:46.098Z [WARNING]: ! Unable to write cache: {"code":"ERR_BAD_REQUEST","message":"Request failed with status code 404"})}
+2023-02-24T19:48:46.098Z [INFO]: ---- Setting Up SSM Secrets ----
+2023-02-24T19:48:46.099Z [INFO]: SSM params {"Path":"/amplify/d2eopvjx3dn5cr/dev/","WithDecryption":true}
+2023-02-24T19:48:46.143Z [INFO]: # Defaulting to Node version 16
+2023-02-24T19:48:54.397Z [INFO]: # Node version 16 is available for installation
+2023-02-24T19:48:54.565Z [INFO]: # Installing Node version 16
+2023-02-24T19:49:01.606Z [INFO]: # Now using Node version 16
+2023-02-24T19:49:04.314Z [WARNING]: Cannot find module '/root/.nvm/versions/node/v16.19.1/lib/node_modules/@aws-amplify/cli/package.json'
+                                    Require stack:
+                                    - /snapshot/AWSMobilePioneerExecute/out/index.js
+2023-02-24T19:49:04.315Z [INFO]: # Patching NPM package '@aws-amplify/cli' to 10.7.3...
+2023-02-24T19:49:13.351Z [INFO]: # Done patching NPM package '@aws-amplify/cli' to version 10.7.3
+2023-02-24T19:49:13.514Z [INFO]: # Retrieving cache...
+2023-02-24T19:49:13.548Z [INFO]: # Retrieved cache
+2023-02-24T19:49:23.882Z [WARNING]: Required ruby-2.7.6 is not installed.
+2023-02-24T19:49:24.599Z [INFO]: ## Starting Backend Build
+                                 # Starting phase: build
+2023-02-24T19:49:26.777Z [INFO]: [0mAmplify AppID found: d2eopvjx3dn5cr. Amplify App name is: location1[0m
+2023-02-24T19:49:26.814Z [INFO]: [0mBackend environment dev found in Amplify Console app: location1[0m
+2023-02-24T19:49:27.291Z [WARNING]: - Fetching updates to backend environment: dev from the cloud.
+2023-02-24T19:49:27.643Z [WARNING]: - Building resource api/location1
+2023-02-24T19:49:27.913Z [INFO]: ⚠️  WARNING: Some types do not have authorization rules configured. That means all create, read, update, and delete operations are denied on these types:
+2023-02-24T19:49:27.913Z [INFO]: - Todo
+                                 Learn more about "@auth" authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
+2023-02-24T19:49:28.162Z [INFO]: ✅ GraphQL schema compiled successfully.
+                                 Edit your schema at /codebuild/output/src004876055/src/LocationAlert/amplify/backend/api/location1/schema.graphql or place .graphql files in a directory at /codebuild/output/src004876055/src/LocationAlert/amplify/backend/api/location1/schema
+2023-02-24T19:49:28.163Z [WARNING]: - Building resource auth/location100c2256e
+2023-02-24T19:49:28.256Z [WARNING]: ✔ Successfully pulled backend environment dev from the cloud.
+2023-02-24T19:49:28.387Z [INFO]: ✅
+2023-02-24T19:49:30.363Z [INFO]: [33mNote: It is recommended to run this command from the root of your app directory[39m
+2023-02-24T19:49:31.569Z [WARNING]: - Initializing your environment: dev
+2023-02-24T19:49:31.988Z [WARNING]: - Building resource api/location1
+2023-02-24T19:49:32.636Z [INFO]: ⚠️  WARNING: Some types do not have authorization rules configured. That means all create, read, update, and delete operations are denied on these types:
+2023-02-24T19:49:32.637Z [INFO]: - Todo
+                                 Learn more about "@auth" authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
+2023-02-24T19:49:32.895Z [INFO]: ✅ GraphQL schema compiled successfully.
+                                 Edit your schema at /codebuild/output/src004876055/src/LocationAlert/amplify/backend/api/location1/schema.graphql or place .graphql files in a directory at /codebuild/output/src004876055/src/LocationAlert/amplify/backend/api/location1/schema
+2023-02-24T19:49:32.895Z [WARNING]: - Building resource auth/location100c2256e
+2023-02-24T19:49:32.951Z [WARNING]: ✔ Initialized provider successfully.
+2023-02-24T19:49:33.626Z [INFO]: ⚠️  WARNING: Global Sandbox Mode has been enabled, which requires a valid API key. If
+                                 you'd like to disable, remove "input AMPLIFY { globalAuthRule: AuthRule = { allow: public } }"
+                                 from your GraphQL schema and run 'amplify push' again. If you'd like to proceed with
+                                 sandbox mode disabled, do not create an API Key.
+2023-02-24T19:49:33.645Z [INFO]: ⚠️ The API_KEY auth type has been added to the API.
+                                 ⚠️ If other resources depend on this API and need access to the API key, run "amplify update <category>" and reselect this API as a dependency to add the API key dependency.
+2023-02-24T19:49:33.645Z [INFO]: ⚠️  WARNING: Some types do not have authorization rules configured. That means all create, read, update, and delete operations are denied on these types:
+                                 - Todo
+                                 Learn more about "@auth" authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
+2023-02-24T19:49:33.822Z [INFO]: ✅ GraphQL schema compiled successfully.
+                                 Edit your schema at /codebuild/output/src004876055/src/LocationAlert/amplify/backend/api/location1/schema.graphql or place .graphql files in a directory at /codebuild/output/src004876055/src/LocationAlert/amplify/backend/api/location1/schema
+2023-02-24T19:49:33.826Z [WARNING]: - Building resource api/location1
+2023-02-24T19:49:34.465Z [INFO]: ⚠️  WARNING: your GraphQL API currently allows public create, read, update, and delete access to all models via an API Key. To configure PRODUCTION-READY authorization rules, review: https://docs.amplify.aws/cli/graphql/authorization-rules
+2023-02-24T19:49:34.634Z [INFO]: ✅ GraphQL schema compiled successfully.
+                                 Edit your schema at /codebuild/output/src004876055/src/LocationAlert/amplify/backend/api/location1/schema.graphql or place .graphql files in a directory at /codebuild/output/src004876055/src/LocationAlert/amplify/backend/api/location1/schema
+2023-02-24T19:49:34.635Z [WARNING]: - Building resource auth/location100c2256e
+2023-02-24T19:49:34.774Z [WARNING]: - Uploading files.
+2023-02-24T19:49:41.269Z [INFO]: 
+2023-02-24T19:49:41.272Z [INFO]: UPDATE_IN_PROGRESS amplify-location1-dev-225357 AWS::CloudFormation::Stack Fri Feb 24 2023 19:49:36 GMT+0000 (Coordinated Universal Time) User Initiated
+                                 UPDATE_IN_PROGRESS authlocation100c2256e        AWS::CloudFormation::Stack Fri Feb 24 2023 19:49:40 GMT+0000 (Coordinated Universal Time)
+2023-02-24T19:49:46.291Z [INFO]: 
+2023-02-24T19:49:46.293Z [INFO]: UPDATE_COMPLETE    authlocation100c2256e AWS::CloudFormation::Stack Fri Feb 24 2023 19:49:41 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_IN_PROGRESS apilocation1          AWS::CloudFormation::Stack Fri Feb 24 2023 19:49:42 GMT+0000 (Coordinated Universal Time)
+2023-02-24T19:49:46.343Z [INFO]: 
+2023-02-24T19:49:46.344Z [INFO]: UPDATE_IN_PROGRESS amplify-location1-dev-225357-apilocation1-1SMXGC041HUU0 AWS::CloudFormation::Stack Fri Feb 24 2023 19:49:43 GMT+0000 (Coordinated Universal Time) User Initiated
+2023-02-24T19:49:56.372Z [INFO]: 
+2023-02-24T19:49:56.374Z [INFO]: UPDATE_IN_PROGRESS GraphQLAPITransformerSchema3CB2AE18 AWS::AppSync::GraphQLSchema Fri Feb 24 2023 19:49:47 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_IN_PROGRESS GraphQLAPIDefaultApiKey215A6DD7     AWS::AppSync::ApiKey        Fri Feb 24 2023 19:49:47 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_COMPLETE    GraphQLAPIDefaultApiKey215A6DD7     AWS::AppSync::ApiKey        Fri Feb 24 2023 19:49:48 GMT+0000 (Coordinated Universal Time)
+2023-02-24T19:51:16.399Z [INFO]: 
+2023-02-24T19:51:16.401Z [INFO]: UPDATE_COMPLETE    GraphQLAPITransformerSchema3CB2AE18 AWS::AppSync::GraphQLSchema Fri Feb 24 2023 19:50:51 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_IN_PROGRESS Todo                                AWS::CloudFormation::Stack  Fri Feb 24 2023 19:50:53 GMT+0000 (Coordinated Universal Time)
+2023-02-24T19:51:16.591Z [INFO]: 
+2023-02-24T19:51:16.592Z [INFO]: UPDATE_IN_PROGRESS amplify-location1-dev-225357-apilocation1-1SMXGC041HUU0-Todo-NKRYA32SUVRI                           AWS::CloudFormation::Stack          Fri Feb 24 2023 19:50:53 GMT+0000 (Coordinated Universal Time) User Initiated
+                                 UPDATE_IN_PROGRESS MutationupdateTodoinit0FunctionMutationupdateTodoinit0FunctionAppSyncFunction1B95BB19               AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:00 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_IN_PROGRESS MutationcreateTodoinit0FunctionMutationcreateTodoinit0FunctionAppSyncFunction54DE5B8B               AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:00 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_IN_PROGRESS QueryListTodosDataResolverFnQueryListTodosDataResolverFnAppSyncFunctionF825FE47                     AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:00 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_IN_PROGRESS MutationCreateTodoDataResolverFnMutationCreateTodoDataResolverFnAppSyncFunction900EC5CF             AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:00 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_IN_PROGRESS QuerygetTodopostAuth0FunctionQuerygetTodopostAuth0FunctionAppSyncFunction6BE14593                   AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:00 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_IN_PROGRESS MutationUpdateTodoDataResolverFnMutationUpdateTodoDataResolverFnAppSyncFunctionBC238C49             AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:00 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_IN_PROGRESS SubscriptionOnCreateTodoDataResolverFnSubscriptionOnCreateTodoDataResolverFnAppSyncFunction462A70C9 AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:00 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_IN_PROGRESS MutationDeleteTodoDataResolverFnMutationDeleteTodoDataResolverFnAppSyncFunction3879153F             AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:01 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_IN_PROGRESS QueryGetTodoDataResolverFnQueryGetTodoDataResolverFnAppSyncFunctionE2B57DAD                         AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:01 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_COMPLETE    MutationupdateTodoinit0FunctionMutationupdateTodoinit0FunctionAppSyncFunction1B95BB19               AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:01 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_COMPLETE    QuerygetTodopostAuth0FunctionQuerygetTodopostAuth0FunctionAppSyncFunction6BE14593                   AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:02 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_COMPLETE    QueryListTodosDataResolverFnQueryListTodosDataResolverFnAppSyncFunctionF825FE47                     AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:02 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_COMPLETE    MutationcreateTodoinit0FunctionMutationcreateTodoinit0FunctionAppSyncFunction54DE5B8B               AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:02 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_COMPLETE    MutationUpdateTodoDataResolverFnMutationUpdateTodoDataResolverFnAppSyncFunctionBC238C49             AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:02 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_COMPLETE    QueryGetTodoDataResolverFnQueryGetTodoDataResolverFnAppSyncFunctionE2B57DAD                         AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:02 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_COMPLETE    MutationDeleteTodoDataResolverFnMutationDeleteTodoDataResolverFnAppSyncFunction3879153F             AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:02 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_COMPLETE    SubscriptionOnCreateTodoDataResolverFnSubscriptionOnCreateTodoDataResolverFnAppSyncFunction462A70C9 AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:03 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_COMPLETE    MutationCreateTodoDataResolverFnMutationCreateTodoDataResolverFnAppSyncFunction900EC5CF             AWS::AppSync::FunctionConfiguration Fri Feb 24 2023 19:51:03 GMT+0000 (Coordinated Universal Time)
+2023-02-24T19:51:46.292Z [INFO]: 
+2023-02-24T19:51:46.294Z [INFO]: UPDATE_COMPLETE                     apilocation1                 AWS::CloudFormation::Stack Fri Feb 24 2023 19:51:36 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_COMPLETE_CLEANUP_IN_PROGRESS amplify-location1-dev-225357 AWS::CloudFormation::Stack Fri Feb 24 2023 19:51:39 GMT+0000 (Coordinated Universal Time)
+2023-02-24T19:52:06.555Z [INFO]: [K
+2023-02-24T19:52:06.901Z [WARNING]: - Uploading files.
+2023-02-24T19:52:07.267Z [INFO]: [K
+2023-02-24T19:52:07.318Z [INFO]: [1A
+2023-02-24T19:52:07.318Z [INFO]: [K
+2023-02-24T19:52:07.368Z [INFO]: [1A
+2023-02-24T19:52:07.368Z [INFO]: [K
+2023-02-24T19:52:07.397Z [INFO]: [1A
+2023-02-24T19:52:07.398Z [INFO]: [K
+2023-02-24T19:52:07.398Z [WARNING]: - Uploading files.
+2023-02-24T19:52:07.431Z [WARNING]: - Uploading files.
+2023-02-24T19:52:08.135Z [INFO]: 
+2023-02-24T19:52:08.136Z [INFO]: GraphQL endpoint: https://vnrwqgefzfaufnrbqwggf7xnba.appsync-api.ap-south-1.amazonaws.com/graphql
+2023-02-24T19:52:08.137Z [INFO]: GraphQL API KEY: da2-t6nccq5myvarxaqgwoetlwaj6i
+2023-02-24T19:52:08.138Z [INFO]: GraphQL transformer version: 2
+2023-02-24T19:52:08.141Z [INFO]: 
+2023-02-24T19:52:08.318Z [INFO]: ✅ Initialized your environment successfully.
+2023-02-24T19:52:08.319Z [INFO]: 
+2023-02-24T19:52:08.319Z [INFO]: [32mYour project has been successfully initialized and connected to the cloud![39m
+2023-02-24T19:52:08.319Z [INFO]: 
+2023-02-24T19:52:08.320Z [INFO]: [32mSome next steps:[39m
+2023-02-24T19:52:08.320Z [INFO]: [0m"amplify status" will show you what you've added already and if it's locally configured or deployed[0m
+2023-02-24T19:52:08.320Z [INFO]: [0m"amplify add <category>" will allow you to add features like user login or a backend API[0m
+2023-02-24T19:52:08.321Z [INFO]: [0m"amplify push" will build all your local backend resources and provision it in the cloud[0m
+2023-02-24T19:52:08.321Z [INFO]: [0m"amplify console" to open the Amplify Console and view your project status[0m
+2023-02-24T19:52:08.321Z [INFO]: [0m"amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud[0m
+2023-02-24T19:52:08.322Z [INFO]: 
+2023-02-24T19:52:08.322Z [INFO]: [32mPro tip:[39m
+2023-02-24T19:52:08.322Z [INFO]: [0mTry "amplify add api" to create a backend API and then "amplify push" to deploy everything[0m
+2023-02-24T19:52:08.323Z [INFO]: 
+2023-02-24T19:52:08.323Z [INFO]: ⚠️ The maximum number of apps that you can create with Amplify in this region has likely been reached:
+2023-02-24T19:52:08.323Z [INFO]: For more information on Amplify Service Quotas, see:
+2023-02-24T19:52:08.324Z [INFO]: https://docs.aws.amazon.com/general/latest/gr/amplify.html#service-quotas-amplify
+2023-02-24T19:52:08.324Z [INFO]: 
+2023-02-24T19:52:10.781Z [INFO]: # Completed phase: build
+                                 ## Completed Backend Build
+2023-02-24T19:52:10.784Z [INFO]: ## Starting Frontend Build
+                                 # Starting phase: preBuild
+                                 # Executing command: bundle install
+2023-02-24T19:52:16.961Z [WARNING]: Don't run Bundler as root. Bundler can ask for sudo if it is needed, and
+                                    installing your bundle as root will break this application for all non-root
+                                    users on this machine.
+2023-02-24T19:52:18.294Z [WARNING]: Your Ruby version is 2.4.6, but your Gemfile specified 2.7.6
+2023-02-24T19:52:18.302Z [ERROR]: !!! Build failed
+2023-02-24T19:52:18.302Z [ERROR]: !!! Non-Zero Exit Code detected
+2023-02-24T19:52:18.302Z [INFO]: # Starting environment caching...
+2023-02-24T19:52:18.302Z [INFO]: # Environment caching completed
+Terminating logging...

@@ -14,6 +14,9 @@
     "categories": {
       "auth": {
         "location100c2256e": {}
+      },
+      "api": {
+        "location1": {}
       }
     }
   }
